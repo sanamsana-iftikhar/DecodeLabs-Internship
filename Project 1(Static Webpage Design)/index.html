@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BookNest – Your cozy corner for discovering, exploring, and purchasing books across every genre. Browse fiction, science, programming, business, history, and children's books.">
+  <title>📚 BookNest – Online Book Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Header & Navigation ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">📚 Book<span>Nest</span></div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#bestsellers">Best Sellers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== 1. Home / Hero Section ===== -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <h1>Welcome to BookNest</h1>
+        <p>
+          Discover your next favorite read at BookNest, your cozy online bookstore.
+          We curate a handpicked collection of books across every genre — from timeless
+          classics to the latest releases. Whether you're a passionate reader or just
+          starting your literary journey, there's a perfect book waiting for you here.
+        </p>
+        <a href="#featured" class="btn">Explore Books</a>
+      </div>
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80"
+          alt="A warm and inviting bookstore filled with bookshelves"
+        >
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 2. Categories Section ===== -->
+  <section id="categories" class="categories">
+    <div class="container">
+      <h2 class="section-title">Browse Categories</h2>
+      <p class="section-subtitle">Find books in the genres you love</p>
+
+      <div class="categories-grid">
+        <!-- Fiction -->
+        <article class="category-card">
+          <img
+            src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&q=80"
+            alt="Stack of fiction novels"
+          >
+          <div class="category-card-body">
+            <h3>Fiction</h3>
+            <p>Immerse yourself in captivating stories, vivid characters, and worlds crafted by imagination.</p>
+          </div>
+        </article>
+
+        <!-- Science -->
+        <article class="category-card">
+          <img
+            src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600&q=80"
+            alt="Science laboratory equipment"
+          >
+          <div class="category-card-body">
+            <h3>Science</h3>
+            <p>Explore the wonders of the universe, from quantum physics to the natural world around us.</p>
+          </div>
+        </article>
+
+        <!-- Programming -->
+        <article class="category-card">
+          <img
+            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&q=80"
+            alt="Computer screen with programming code"
+          >
+          <div class="category-card-body">
+            <h3>Programming</h3>
+            <p>Level up your coding skills with guides on Python, JavaScript, web development, and more.</p>
+          </div>
+        </article>
+
+        <!-- Business -->
+        <article class="category-card">
+          <img
+            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=80"
+            alt="Business meeting and planning"
+          >
+          <div class="category-card-body">
+            <h3>Business</h3>
+            <p>Master entrepreneurship, leadership, and strategy with top business titles from industry experts.</p>
+          </div>
+        </article>
+
+    
+        <!-- History -->
+<article class="category-card">
+  <img
+    src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=600&q=80"
+    alt="Ancient historical artifacts and books"
+  >
+  <div class="category-card-body">
+    <h3>History</h3>
+    <p>Journey through time and discover the events, people, and ideas that shaped our world.</p>
+  </div>
+</article>
+
+        <!-- Children's Books -->
+        <article class="category-card">
+          <img
+            src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80"
+            alt="Colorful children's books on a shelf"
+          >
+          <div class="category-card-body">
+            <h3>Children's Books</h3>
+            <p>Spark young imaginations with enchanting stories, colorful illustrations, and fun learning adventures.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 3. Featured Books Section ===== -->
+  <section id="featured" class="featured-books">
+    <div class="container">
+      <h2 class="section-title">Featured Books</h2>
+      <p class="section-subtitle">Hand-picked recommendations just for you</p>
+
+      <div class="books-grid">
+        <!-- Book 1 -->
+        <article class="book-card">
+          <img
+            src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=600&q=80"
+            alt="The Great Gatsby book cover"
+          >
+          <div class="book-card-body">
+            <h3>The Great Gatsby</h3>
+            <p class="book-author">by F. Scott Fitzgerald</p>
+            <p class="book-description">A timeless tale of wealth, love, and the American dream set in the roaring twenties.</p>
+            <p class="book-price">$12.99</p>
+          </div>
+        </article>
+
+        <!-- Book 2 -->
+        <article class="book-card">
+          <img
+            src="https://images.unsplash.com/photo-1589998059171-988d887df646?w=600&q=80"
+            alt="Atomic Habits book"
+          >
+          <div class="book-card-body">
+            <h3>Atomic Habits</h3>
+            <p class="book-author">by James Clear</p>
+            <p class="book-description">Transform your life with tiny changes that deliver remarkable results over time.</p>
+            <p class="book-price">$16.99</p>
+          </div>
+        </article>
+
+        <!-- Book 3 -->
+        <article class="book-card">
+          <img
+            src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80"
+            alt="Sapiens book cover"
+          >
+          <div class="book-card-body">
+            <h3>Sapiens</h3>
+            <p class="book-author">by Yuval Noah Harari</p>
+            <p class="book-description">A brief history of humankind exploring how Homo sapiens came to dominate the Earth.</p>
+            <p class="book-price">$18.50</p>
+          </div>
+        </article>
+
+        <!-- Book 4 -->
+        <article class="book-card">
+          <img
+            src="https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=600&q=80"
+            alt="Clean Code book"
+          >
+          <div class="book-card-body">
+            <h3>Clean Code</h3>
+            <p class="book-author">by Robert C. Martin</p>
+            <p class="book-description">A handbook of agile software craftsmanship for writing elegant, readable programs.</p>
+            <p class="book-price">$34.99</p>
+          </div>
+        </article>
+
+        <!-- Book 5 -->
+        <article class="book-card">
+          <img
+            src="https://images.unsplash.com/photo-1476275466078-4007374efbbe?w=600&q=80"
+            alt="To Kill a Mockingbird book"
+          >
+          <div class="book-card-body">
+            <h3>To Kill a Mockingbird</h3>
+            <p class="book-author">by Harper Lee</p>
+            <p class="book-description">A powerful story of racial injustice and childhood innocence in the American South.</p>
+            <p class="book-price">$11.99</p>
+          </div>
+        </article>
+
+        <!-- Book 6 -->
+        <article class="book-card">
+          <img
+            src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&q=80"
+            alt="Thinking, Fast and Slow book"
+          >
+          <div class="book-card-body">
+            <h3>Thinking, Fast and Slow</h3>
+            <p class="book-author">by Daniel Kahneman</p>
+            <p class="book-description">A groundbreaking exploration of the two systems that drive the way we think and decide.</p>
+            <p class="book-price">$15.99</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 4. About Us Section ===== -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-inner">
+        <div class="about-image">
+          <img
+            src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&q=80"
+            alt="Interior of a beautiful library with wooden shelves"
+          >
+        </div>
+        <div class="about-content">
+          <h2>About BookNest</h2>
+          <p>
+            BookNest was founded with a simple belief: everyone deserves access to great
+            books. We are a passionate team of book lovers committed to bringing the joy of
+            reading to people everywhere. Our carefully curated collection spans every genre,
+            from literary fiction to cutting-edge science, ensuring there is something
+            meaningful for every reader.
+          </p>
+          <p>
+            Since our founding, we have served thousands of readers, helping them discover
+            stories that inspire, educate, and entertain. At BookNest, every book is chosen
+            with care, and every reader is part of our community.
+          </p>
+
+          <div class="about-block">
+            <h3>Our Mission</h3>
+            <p>
+              To make quality books accessible and affordable for everyone, fostering a love
+              of reading and lifelong learning in communities around the world.
+            </p>
+          </div>
+
+          <div class="about-block">
+            <h3>Our Vision</h3>
+            <p>
+              To become the most trusted and beloved online bookstore, where readers of all
+              ages find inspiration, knowledge, and the joy of discovering their next great read.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 5. Best Sellers Section ===== -->
+  <section id="bestsellers" class="bestsellers">
+    <div class="container">
+      <h2 class="section-title">Best Sellers</h2>
+      <p class="section-subtitle">The books everyone is reading right now</p>
+
+      <div class="bestsellers-grid">
+        <!-- Bestseller 1 -->
+        <article class="bestseller-card">
+          <img
+            src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&q=80"
+            alt="The Alchemist book"
+          >
+          <div class="bestseller-card-body">
+            <h3>The Alchemist</h3>
+            <p class="bestseller-rating">★★★★★</p>
+            <p class="bestseller-price">$13.99</p>
+          </div>
+        </article>
+
+        <!-- Bestseller 2 -->
+        <article class="bestseller-card">
+          <img
+            src="https://images.unsplash.com/photo-1589998059171-988d887df646?w=600&q=80"
+            alt="Educated book"
+          >
+          <div class="bestseller-card-body">
+            <h3>Educated</h3>
+            <p class="bestseller-rating">★★★★★</p>
+            <p class="bestseller-price">$14.50</p>
+          </div>
+        </article>
+
+        <!-- Bestseller 3 -->
+        <article class="bestseller-card">
+          <img
+            src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=600&q=80"
+            alt="1984 book"
+          >
+          <div class="bestseller-card-body">
+            <h3>1984</h3>
+            <p class="bestseller-rating">★★★★☆</p>
+            <p class="bestseller-price">$10.99</p>
+          </div>
+        </article>
+
+        <!-- Bestseller 4 -->
+        <article class="bestseller-card">
+          <img
+            src="https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=600&q=80"
+            alt="The Lean Startup book"
+          >
+          <div class="bestseller-card-body">
+            <h3>The Lean Startup</h3>
+            <p class="bestseller-rating">★★★★★</p>
+            <p class="bestseller-price">$19.99</p>
+          </div>
+        </article>
+
+        <!-- Bestseller 5 -->
+        <article class="bestseller-card">
+          <img
+            src="https://images.unsplash.com/photo-1476275466078-4007374efbbe?w=600&q=80"
+            alt="Becoming book"
+          >
+          <div class="bestseller-card-body">
+            <h3>Becoming</h3>
+            <p class="bestseller-rating">★★★★★</p>
+            <p class="bestseller-price">$16.50</p>
+          </div>
+        </article>
+
+        <!-- Bestseller 6 -->
+        <article class="bestseller-card">
+          <img
+            src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&q=80"
+            alt="Deep Work book"
+          >
+          <div class="bestseller-card-body">
+            <h3>Deep Work</h3>
+            <p class="bestseller-rating">★★★★☆</p>
+            <p class="bestseller-price">$15.00</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 6. Contact Section ===== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-subtitle">We would love to hear from you</p>
+
+      <div class="contact-inner">
+        <!-- Contact Information -->
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+
+          <div class="contact-detail">
+            <h4>Address</h4>
+            <p>123 Reading Lane, Booktown, BK 45678</p>
+          </div>
+
+          <div class="contact-detail">
+            <h4>Phone</h4>
+            <p>+1 (555) 123-4567</p>
+          </div>
+
+          <div class="contact-detail">
+            <h4>Email</h4>
+            <p>hello@booknest.com</p>
+          </div>
+
+          <div class="contact-detail">
+            <h4>Opening Hours</h4>
+            <p>Monday – Friday: 9:00 AM – 8:00 PM</p>
+            <p>Saturday: 10:00 AM – 6:00 PM</p>
+            <p>Sunday: Closed</p>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="contact-name">Name</label>
+              <input type="text" id="contact-name" name="name" placeholder="Your full name">
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" name="email" placeholder="your.email@example.com">
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" placeholder="Write your message here..."></textarea>
+            </div>
+
+            <button type="button" class="submit-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <!-- Brand Column -->
+      <div class="footer-brand">
+        <div class="logo">📚 Book<span>Nest</span></div>
+        <p>
+          Your cozy corner for discovering great books. We bring the best reads
+          from around the world right to your doorstep.
+        </p>
+      </div>
+
+      <!-- Quick Links Column -->
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#featured">Featured Books</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#bestsellers">Best Sellers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media Column -->
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 BookNest. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
